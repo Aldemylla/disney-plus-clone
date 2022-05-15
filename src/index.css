@@ -1,40 +1,62 @@
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('../public/fonts/avenir-lt-55-roman.ttf')  format('truetype');
+}
+
+:root {
+  --background: #040714;
+  --white: #f9f9f9;
+  --white-border: rgba(249, 249, 249, 0.8);
+  --blue: #0063e5;
+  --light-blue: #0483ee;
+  --transition-timing-function-25: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-timing-function-55: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+  font-size: 10px;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
   box-sizing: border-box;
 }
 
 body {
-  background-color: #040714;
-  color: #f9f9f9;
+  background: var(--background);
+  color: var(--white);
 
   font-family: Avenir-Roman, sans-serif;
-  margin: 0;
-  padding: 0;
+
+  user-select: none;
 }
 
 a {
-  color: #f9f9f9;
+  color: var(--white);
   text-decoration: none;
+
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
   body {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 479px){
   body {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }
