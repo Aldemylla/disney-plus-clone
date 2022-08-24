@@ -1,3 +1,11 @@
+<div align="center">
+
+# Disney Plus Clone
+
+A basic clone of the *Disney+* streaming platform
+
+</div>
+
 ## 💻 Demo
 
 [https://disney-plus-clone-fef52.web.app](https://disney-plus-clone-fef52.web.app)
@@ -8,9 +16,9 @@
   <img alt="DisneyPlus-home" src=".github/disney-clone.gif" width="100%">
 </p>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with:
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -20,4 +28,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-Feito by Aldemylla :wave: [Me encontre no Linkedin!](https://www.linkedin.com/in/aldemylla/)
+Made by Aldemylla :wave: [Find me on Linkedin!](https://www.linkedin.com/in/aldemylla/)
